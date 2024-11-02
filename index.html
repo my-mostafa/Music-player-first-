@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+    <div class="cunteiner">
+        <audio id="mousic" src="./audio/1.mp3"></audio>
+        <button id="playbtn" onclick="funplay()">play</button>
+        <button id="stopbtn" onclick="funstop()">stop</button>
+        <button onclick="funnext()">next</button>
+        <button onclick="funprevios()">previos</button>
+        <button onclick="funspeedfast()">speedfast</button>
+        <button onclick="funmi()">10-</button>
+        <button onclick="funpl()">10+</button>
+        <p id="timer">play mosic</p><p id="timerfull"></p>
+        
+        
+    </div> 
+
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
